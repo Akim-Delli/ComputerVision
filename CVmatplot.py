@@ -1,11 +1,13 @@
 from PIL import Image
 from pylab import *
+from numpy import *
+import matplotlib.pyplot as plt
 
 # read image to array
 im = array(Image.open('data/empire.jpg'))
 
 # plot the image
-imshow(im)
+plt.imshow(im)
 
 # some points
 x = [100, 100, 400, 400]
